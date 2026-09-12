@@ -1,0 +1,18 @@
+Package: R2D2
+Title: Bayesian Linear Regression Using the R2-D2 Shrinkage Prior
+Version: 1.0.0.9000
+Description: Fits Bayesian linear regression with global and local shrinkage
+    under the R2-D2 prior. This modified version adds optional sign constraints
+    to the Dirichlet-Laplace and marginal R2-D2 samplers.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: MASS, statmod, GIGrvg, MCMCpack, mvtnorm, stats, onlinePCA,
+    chemometrics, TruncatedNormal, truncnorm
+NeedsCompilation: yes
+Packaged: 2020-07-26 08:08:52 UTC; dorazhang
+Author: Yan Dora Zhang, Brian P. Naughton, Howard D. Bondell, and Brian J. Reich
+Compiler: Yuxi Cui, Yan Dora Zhang
+Maintainer: Yan Dora Zhang <yandorazhang@gmail.com>

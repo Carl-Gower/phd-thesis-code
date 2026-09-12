@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite this code release and the relevant original paper listed in the component README. The thesis provides the wider theoretical context."
+type: software
+title: "PhD thesis code: extensions to Bayesian shrinkage methods"
+authors:
+  - family-names: "Gower"
+    given-names: "Carl"
+repository-code: "https://github.com/Carl-Gower/phd-thesis-code"
+abstract: >-
+  Research code for dynamic shrinkage processes, normal-gamma
+  autoregressive regression, and sign-constrained static shrinkage priors.
+keywords:
+  - Bayesian regression
+  - shrinkage priors
+  - dynamic shrinkage
+  - sign constraints
+references:
+  - type: thesis
+    title: "Bayesian Shrinkage Priors for Time Series Analysis"
+    authors:
+      - family-names: "Gower"
+        given-names: "Carl"
+    year: 2025
